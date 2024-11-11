@@ -44,7 +44,7 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 /* banner styles */
@@ -203,7 +203,9 @@ input{
         flex-direction: column;
         padding: 10px 10px;
     }
-    
+    .banner img{
+        width: 325px;
+    }
     /* nav ul {
         flex-direction: column;
     } */
