@@ -199,14 +199,60 @@ input{
 }
 /* responsive website */
 @media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    
+    /* nav ul {
+        flex-direction: column;
+    } */
+    .header{
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column;
+    }
     .skills-container{
         flex-direction: column;
     }
-    
+    .resume-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 10px;
+    }
+    .about {
+        padding: 10px 10px;
+    }
+    .about-info-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
 }
 @media screen and  (min-width:576px) and (max-width:992px) {
     .skills-container{
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
     }
+    .banner {
+        flex-direction: column;
+    }
+    .resume-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 100px;
+        padding: 60px 60px;
+    }
+    .about {
+        padding: 10px 10px;
+    }
+
 }
